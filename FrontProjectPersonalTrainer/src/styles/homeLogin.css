@@ -1,0 +1,368 @@
+h1 {
+  font-family: "Fraunces", serif;
+}
+
+h2 {
+  font-style: oblique;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.primop {
+  color: #e0d9d9;
+  font-family: "Fraunces", serif;
+  font-size: 1.3rem;
+}
+
+.citazioni {
+  font-style: oblique;
+}
+
+.home-background {
+  background-image: url("/public/sfondo1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: darken;
+}
+
+/*Prima immagine*/
+
+.img1 {
+  background-image: url("/an1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  max-width: 600px;
+  aspect-ratio: 1 / 1;
+  position: relative;
+}
+
+.muscle-btn-pettorale {
+  position: absolute;
+  top: 28%;
+  left: 34%;
+  border: 1px solid #edebeb;
+  color: #f5eeee;
+  font: 0.9em sans-serif;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+.muscle-btn-deltoide {
+  position: absolute;
+  top: 28%;
+  left: 67%;
+  border: 1px solid #fbf7f7;
+  color: #ffffff;
+  font: 0.9em sans-serif;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+.muscle-btn-trapezio {
+  position: absolute;
+  top: 18%;
+  left: 58%;
+  border: 1px solid #fbf7f7;
+  color: #ffffff;
+  font: 0.9em sans-serif;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+.muscle-btn-bicipite {
+  position: absolute;
+  top: 40%;
+  left: 18%;
+  border: 1px solid #fbf7f7;
+  color: #ffffff;
+  font: 0.9em sans-serif;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+.muscle-btn-brachioradiale {
+  position: absolute;
+  top: 57%;
+  left: 9%;
+  border: 1px solid #fbf7f7;
+  color: #ffffff;
+  font: 0.9em sans-serif;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+.muscle-btn-obliquo-esterno {
+  position: absolute;
+  top: 53%;
+  left: 32%;
+  border: 1px solid #fbf7f7;
+  color: #ffffff;
+  font: 0.8em sans-serif;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+.muscle-btn-retto-addome {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  border: 1px solid #fbf7f7;
+  color: #ffffff;
+  font: 0.8em sans-serif;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+.muscle-btn-trasverso-addome {
+  position: absolute;
+  top: 62%;
+  left: 44%;
+  border: 1px solid #fbf7f7;
+  color: #ffffff;
+  font: 0.8em sans-serif;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+.muscle-btn-estensori-mano {
+  position: absolute;
+  top: 60%;
+  left: 75%;
+  border: 1px solid #fbf7f7;
+  color: #ffffff;
+  font: 0.8em sans-serif;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+/* Seconda Immagine*/
+
+.img2 {
+  background-image: url("/an2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  max-width: 600px;
+  aspect-ratio: 1 / 1;
+  position: relative;
+}
+
+.muscle-btn-retto-femorale {
+  position: absolute;
+  top: 22%;
+  left: 21%;
+  border: 1px solid #fbf7f7;
+  color: #ffffff;
+  font: 0.8em sans-serif;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+.muscle-btn-vasto-mediale {
+  position: absolute;
+  top: 34%;
+  left: 26%;
+  border: 1px solid #fbf7f7;
+  color: #ffffff;
+  font: 0.8em sans-serif;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+.muscle-btn-vasto-laterale {
+  position: absolute;
+  top: 34%;
+  left: 56%;
+  border: 1px solid #fbf7f7;
+  color: #ffffff;
+  font: 0.8em sans-serif;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+.muscle-btn-vasto-laterale {
+  position: absolute;
+  top: 34%;
+  left: 56%;
+  border: 1px solid #fbf7f7;
+  color: #ffffff;
+  font: 0.8em sans-serif;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+.muscle-btn-sartorio {
+  position: absolute;
+  top: 21%;
+  left: 43%;
+  border: 1px solid #fbf7f7;
+  color: #ffffff;
+  font: 0.8em sans-serif;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+.muscle-btn-medio-gluteo {
+  position: absolute;
+  top: 3%;
+  left: 54%;
+  border: 1px solid #fbf7f7;
+  color: #ffffff;
+  font: 0.8em sans-serif;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+.muscle-btn-tibiale-anteriore {
+  position: absolute;
+  top: 65%;
+  left: 60%;
+  border: 1px solid #fbf7f7;
+  color: #ffffff;
+  font: 0.8em sans-serif;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+.muscle-btn-soleo {
+  position: absolute;
+  top: 70%;
+  left: 23%;
+  border: 1px solid #fbf7f7;
+  color: #ffffff;
+  font: 0.8em sans-serif;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+/*Terza immagine*/
+
+.img3 {
+  background-image: url("/an3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  max-width: 600px;
+  aspect-ratio: 3 / 5;
+  position: relative;
+}
+
+.muscle-btn-grande-dorsale {
+  position: absolute;
+  top: 30%;
+  left: 43%;
+  border: 1px solid #fbf7f7;
+  color: #ffffff;
+  font: 0.8em sans-serif;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+.muscle-btn-sotto-spinato {
+  position: absolute;
+  top: 21%;
+  left: 40%;
+  border: 1px solid #fbf7f7;
+  color: #ffffff;
+  font: 0.8em sans-serif;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+.muscle-btn-tricipite {
+  position: absolute;
+  top: 27%;
+  left: 14%;
+  border: 1px solid #fbf7f7;
+  color: #ffffff;
+  font: 0.8em sans-serif;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+.muscle-btn-grande-gluteo {
+  position: absolute;
+  top: 47%;
+  left: 29%;
+  border: 1px solid #fbf7f7;
+  color: #ffffff;
+  font: 0.8em sans-serif;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+.muscle-btn-bicipite-femorale {
+  position: absolute;
+  top: 58%;
+  left: 29%;
+  border: 1px solid #fbf7f7;
+  color: #ffffff;
+  font: 0.8em sans-serif;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+.muscle-btn-grande-adduttore {
+  position: absolute;
+  top: 68%;
+  left: 48%;
+  border: 1px solid #fbf7f7;
+  color: #ffffff;
+  font: 0.8em sans-serif;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+.muscle-btn-gastrocnemio {
+  position: absolute;
+  top: 79%;
+  left: 22%;
+  border: 1px solid #fbf7f7;
+  color: #ffffff;
+  font: 0.8em sans-serif;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+.muscle-btn-peroneo-breve {
+  position: absolute;
+  top: 88%;
+  left: 48%;
+  border: 1px solid #fbf7f7;
+  color: #ffffff;
+  font: 0.8em sans-serif;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+.link-crea {
+  font-size: 2rem;
+  font-family: "Fraunces", serif;
+  font-style: oblique;
+  color: #6a0303;
+}
+
+.modal-muscolo-custom .modal-header,
+.modal-muscolo-custom .modal-body,
+.modal-muscolo-custom .modal-footer {
+  background-color: #000;
+  color: white;
+  background: linear-gradient(to bottom, #1a0000, #000000);
+  box-shadow: 0 4px 10px rgba(145, 14, 30, 0.4),
+    inset 0 2px 6px rgba(145, 14, 30, 0.2);
+  border-bottom: 1px solid rgba(255, 0, 0, 0.3);
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.modal-muscolo-custom .descrizioni {
+  font-family: "Fraunces", serif;
+}

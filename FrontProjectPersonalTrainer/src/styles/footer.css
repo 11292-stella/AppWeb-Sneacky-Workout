@@ -1,0 +1,14 @@
+.footer-css {
+  background-color: #000;
+  color: white;
+
+  background: linear-gradient(to bottom, #1a0000, #000000);
+
+  box-shadow: 0 4px 10px rgba(145, 14, 30, 0.4),
+    inset 0 2px 6px rgba(145, 14, 30, 0.2);
+
+  border-bottom: 1px solid rgba(255, 0, 0, 0.3);
+
+  padding-top: 12px;
+  padding-bottom: 12px;
+}

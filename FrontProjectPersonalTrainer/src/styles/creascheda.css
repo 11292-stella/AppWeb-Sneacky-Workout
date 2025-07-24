@@ -1,0 +1,42 @@
+.creascheda-background {
+  background-image: url("/public/altrosfondo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(63, 17, 17, 0.6);
+  background-blend-mode: darken;
+}
+
+.scheda-p {
+  background-color: rgb(160, 1, 1);
+  -webkit-box-shadow: 1px 2px 9px 1px #000000;
+  box-shadow: 1px 2px 9px 1px #000000;
+}
+
+.scheda-b {
+  background-color: rgb(31, 41, 55);
+  -webkit-box-shadow: 1px 2px 9px 1px #000000;
+  box-shadow: 1px 2px 9px 1px #000000;
+}
+
+.modal-scheda .modal-header,
+.modal-scheda .modal-footer {
+  background-color: #ca1818;
+  color: white;
+  border-bottom: 1px solid white !important;
+}
+
+.modal-scheda .modal-body {
+  background-color: rgb(31, 41, 55) !important;
+  color: white !important;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.modal-scheda .btn-close {
+  filter: brightness(0) invert(1);
+  opacity: 0.8;
+}
+
+.modal-scheda .btn-close:hover {
+  opacity: 1;
+}
