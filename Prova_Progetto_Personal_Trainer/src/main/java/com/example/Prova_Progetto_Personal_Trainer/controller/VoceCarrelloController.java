@@ -37,7 +37,7 @@ public class VoceCarrelloController {
                     .map(objectError -> objectError.getDefaultMessage())
                     .reduce("", (e, s) -> e + s + "; ").trim());
         }
-        // Il servizio restituisce l'oggetto VoceCarrello salvato, che ha l'ID
+      
         return voceCarrelloService.saveVoceCarrello(voceCarrelloDto, authenticatedUser);
     }
 
