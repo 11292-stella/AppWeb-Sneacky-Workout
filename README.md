@@ -81,13 +81,14 @@ Crea un database locale, ad esempio sneaky_workout_db
 
 Apri il file src/main/resources/application.properties (o .yml) e aggiorna le seguenti proprietà:
 
-properties
-Copia
-Modifica
 spring.datasource.url=jdbc:postgresql://localhost:5432/sneaky_workout_db
+
 spring.datasource.username=tuo_username
+
 spring.datasource.password=la_tua_password
+
 spring.jpa.hibernate.ddl-auto=update
+
 spring.jpa.show-sql=true
 
 Imposta la chiave JWT:
